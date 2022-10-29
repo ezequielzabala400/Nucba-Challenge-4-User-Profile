@@ -1,0 +1,82 @@
+:root{
+    --Blanco: #ffffff;
+    --Negro: #000000;
+    --Beige: #ffedd2;
+    --Naranja1: #fa3967;
+    --Naranja2: #fa9639;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--Beige);
+}
+
+.Container{
+    height: 458px;
+    width: 486px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--Blanco);
+    border-radius: 40px;
+    gap: 60px;
+}
+
+.User--image{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 10px rgb(249, 233, 255);
+}
+
+.User__Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.User__Content p{
+    max-width: 240px;
+    text-align: center;
+}
+
+.User__Btns{
+    display: flex;
+    gap: 40px;
+}
+
+.Btn{
+    height: 50px;
+    width: 160px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+
+.Btn1{
+    background: linear-gradient(90deg, var(--Naranja1), var(--Naranja2));
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Btn2{
+    background: var(--Beige);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
